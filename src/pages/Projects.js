@@ -47,9 +47,9 @@ const Projects = () => {
           />
           <ProjectDoneComponent
             image={LogoPinterest}
-            title="Pinterest"
-            text="Plataforma para descubrir ideas e inspiración a través de imágenes y videos."
-            enlace="https://www.pinterest.es/"
+            title="Rating React"
+            text="Una libreria sobre un componente de calificación fácil de usar para las reseñas de los usuarios."
+            enlace="https://elthiagosm.github.io/documentation-rating-react/"
           />
         </div>
       </div>
