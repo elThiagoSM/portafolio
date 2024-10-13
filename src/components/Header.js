@@ -81,21 +81,26 @@ const Header = () => {
               <button
                 className="w-9 h-9 rounded-full border-none bg-white text-[#0087FF] flex items-center justify-center text-xl"
                 onClick={() =>
-                  window.open("https://https://github.com/elThiagoSM", "_blank")
+                  window.open("https://github.com/elThiagoSM", "_blank")
                 }
               >
                 <FaGithubAlt />
               </button>
               <button
                 className="w-9 h-9 rounded-full border-none bg-white text-[#0087FF] flex items-center justify-center text-xl"
-                onClick={() => window.open("https://www.twitter.com", "_blank")}
+                onClick={() =>
+                  window.open("https://twitter.com/elThiagoSM", "_blank")
+                }
               >
                 <FaTwitter />
               </button>
               <button
                 className="w-9 h-9 rounded-full border-none bg-white text-[#0087FF] flex items-center justify-center text-xl"
                 onClick={() =>
-                  window.open("https://www.linkedin.com", "_blank")
+                  window.open(
+                    "https://www.linkedin.com/in/thiago-silveira-machado-81738529b/",
+                    "_blank"
+                  )
                 }
               >
                 <FaLinkedinIn />
@@ -103,7 +108,10 @@ const Header = () => {
               <button
                 className="w-9 h-9 rounded-full border-none bg-white text-[#0087FF] flex items-center justify-center text-xl"
                 onClick={() =>
-                  window.open("https://www.instagram.com", "_blank")
+                  window.open(
+                    "https://www.instagram.com/studio.soca/",
+                    "_blank"
+                  )
                 }
               >
                 <FaInstagram />
