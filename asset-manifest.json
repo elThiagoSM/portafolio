@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.ec2952e5.css",
-    "main.js": "/portafolio/static/js/main.196853a1.js",
+    "main.js": "/portafolio/static/js/main.55940460.js",
     "static/media/Yo-2.png": "/portafolio/static/media/Yo-2.1c8ae3744fcd298de8bf.png",
-    "static/media/logo-instagram.png": "/portafolio/static/media/logo-instagram.dff2e920a759b62242e8.png",
     "static/media/Zolla.ttf": "/portafolio/static/media/Zolla.140074b98ad54720b6ea.ttf",
     "static/media/ITCAvantGardePro-Demi.otf": "/portafolio/static/media/ITCAvantGardePro-Demi.52c7da13a4e464231020.otf",
     "static/media/ITCAvantGardePro-MdObl.otf": "/portafolio/static/media/ITCAvantGardePro-MdObl.7f6f2948e4eb7cc05587.otf",
@@ -16,19 +15,19 @@
     "static/media/ITCAvantGardePro-Bk.otf": "/portafolio/static/media/ITCAvantGardePro-Bk.dec102d3d13de4658146.otf",
     "static/media/ITCAvantGardePro-DemiObl.otf": "/portafolio/static/media/ITCAvantGardePro-DemiObl.b8d130415d0dab3af5a9.otf",
     "static/media/juego_chosethedoor_img.png": "/portafolio/static/media/juego_chosethedoor_img.9ea412237423700edf6e.png",
-    "static/media/logo-duolingo.png": "/portafolio/static/media/logo-duolingo.c526d9adf023cd652aaf.png",
+    "static/media/pintureria_arcoiris_img.png": "/portafolio/static/media/pintureria_arcoiris_img.d00ae3e7fc7a7cf2f6fb.png",
     "static/media/selector_colores_img.png": "/portafolio/static/media/selector_colores_img.58067e7544b86f807d9b.png",
     "static/media/simulador_dado_img.png": "/portafolio/static/media/simulador_dado_img.9f194746568e77b5cbee.png",
-    "static/media/logo-x.png": "/portafolio/static/media/logo-x.b1dd73069e326d5bf3a0.png",
+    "static/media/gif_app_img.png": "/portafolio/static/media/gif_app_img.1b515958c7b1517b96d0.png",
     "static/media/conversor_moneda_img.png": "/portafolio/static/media/conversor_moneda_img.8e2bb4a7eb9c9015dc70.png",
-    "static/media/logo-pinterest.png": "/portafolio/static/media/logo-pinterest.d4333a2abe0934a1261a.png",
+    "static/media/farmacia_la_ida_img.png": "/portafolio/static/media/farmacia_la_ida_img.39068672c5a335d2e284.png",
     "static/media/generador_contraseñas_img.png": "/portafolio/static/media/generador_contraseñas_img.72ffe884ce10b5b87758.png",
     "index.html": "/portafolio/index.html",
     "main.ec2952e5.css.map": "/portafolio/static/css/main.ec2952e5.css.map",
-    "main.196853a1.js.map": "/portafolio/static/js/main.196853a1.js.map"
+    "main.55940460.js.map": "/portafolio/static/js/main.55940460.js.map"
   },
   "entrypoints": [
     "static/css/main.ec2952e5.css",
-    "static/js/main.196853a1.js"
+    "static/js/main.55940460.js"
   ]
 }
