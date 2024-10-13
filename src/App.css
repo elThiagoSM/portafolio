@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  font-family: "ITCAvantGardePro";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  font-family: "Zolla";
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Zolla";
+  src: url("../public/fonts/Zolla.ttf") format("truetype");
+}
+
+/* ITCAvantGardePro-Bk - Regular */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-Bk.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-BkObl - Oblique Regular */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-BkObl.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-Bold - Bold */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-Bold.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-BoldObl - Bold Oblique */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-BoldObl.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-Demi - Demi */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-Demi.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-DemiObl - Demi Oblique */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-DemiObl.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-Md - Medium */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-Md.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-MdObl - Medium Oblique */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-MdObl.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-XLt - Extra Light */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 200;
+  font-style: normal;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-XLt.otf")
+    format("opentype");
+}
+
+/* ITCAvantGardePro-XLtObl - Extra Light Oblique */
+@font-face {
+  font-family: "ITCAvantGardePro";
+  font-weight: 200;
+  font-style: italic;
+  src: url("../public/fonts/ITC Avant Garde Gothic Pro/ITCAvantGardePro-XLtObl.otf")
+    format("opentype");
+}
