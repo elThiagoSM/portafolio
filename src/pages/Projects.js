@@ -5,11 +5,10 @@ import Footer from "../components/Footer";
 
 import ProjectDoneComponent from "../components/ProjectDoneComponent";
 
-import LogoDuolingo from "../img/logos-redes-sociales/logo-duolingo.png";
-import LogoFacebook from "../img/logos-redes-sociales/logo-facebook.png";
-import LogoInstagram from "../img/logos-redes-sociales/logo-instagram.png";
-import LogoPinterest from "../img/logos-redes-sociales/logo-pinterest.png";
-import LogoX from "../img/logos-redes-sociales/logo-x.png";
+import LogoFarmaciaLaIda from "../img/proyectos/farmacia_la_ida_img.png";
+import LogoGifApp from "../img/proyectos/gif_app_img.png";
+import LogoPinturariaArcoiris from "../img/proyectos/pintureria_arcoiris_img.png";
+import LogoRatingReact from "../img/proyectos/rating_react_img.png";
 
 import LogoConversorMoneda from "../img/proyectos/conversor_moneda_img.png";
 import LogoGeneradorContraseña from "../img/proyectos/generador_contraseñas_img.png";
@@ -28,27 +27,27 @@ const Projects = () => {
         <h1 className="text-5xl text-white mb-12">Proyectos realizados</h1>
         <div className="flex flex-wrap justify-center gap-5 lg:justify-center">
           <ProjectDoneComponent
-            image={LogoDuolingo}
+            image={LogoPinturariaArcoiris}
             title="Pintureria Arcoiris"
             text="Sitio web de venta de pintuturas y herramientas."
             enlace="http://pintureriaarcoiris.great-site.net/"
           />
           <ProjectDoneComponent
-            image={LogoFacebook}
+            image={LogoGifApp}
             title="Gif App"
             text="Un sitio donde puedes buscar y descargar tus GIFs favoritos."
             enlace="https://buscar-gifs-gratis.netlify.app/"
           />
           <ProjectDoneComponent
-            image={LogoInstagram}
+            image={LogoFarmaciaLaIda}
             title="Farmacia La Ida"
             text="Sitio web que presenta y ofrece información sobre Farmacia La Ida."
             enlace="https://farmacia-laida.netlify.app/"
           />
           <ProjectDoneComponent
-            image={LogoPinterest}
+            image={LogoRatingReact}
             title="Rating React"
-            text="Una libreria sobre un componente de calificación fácil de usar para las reseñas de los usuarios."
+            text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
             enlace="https://elthiagosm.github.io/documentation-rating-react/"
           />
         </div>
@@ -100,7 +99,7 @@ const Projects = () => {
             enlace="https://thiagosm.itch.io/choosethedoor"
           />
           <ProjectDoneComponent
-            image={LogoX}
+            image={Logo1937}
             title="Rolling Balls"
             text="Videojuego 3D de puzzles sobre resolver laverintos siendo una pelota."
             enlace="https://x.com/"
