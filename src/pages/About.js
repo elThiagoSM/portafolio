@@ -6,7 +6,8 @@ import Footer from "../components/Footer";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 
-import Yo from "../img/Yo-2.png";
+import YoUno from "../img/Yo-1.png";
+import YoDos from "../img/Yo-2.png";
 
 const About = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -25,7 +26,7 @@ const About = () => {
 
           <div className="flex flex-col md:flex-row items-center justify-center mb-8 md:mr-[25%]">
             <img
-              src={Yo}
+              src={YoUno}
               alt="Thiago Silveira Machado"
               className="flex-1 max-w-xs rounded-full"
             />
@@ -44,7 +45,7 @@ const About = () => {
 
           <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-8 md:ml-[25%]">
             <img
-              src={Yo}
+              src={YoDos}
               alt="Thiago Silveira Machado"
               className="flex-1 max-w-xs rounded-full"
             />
