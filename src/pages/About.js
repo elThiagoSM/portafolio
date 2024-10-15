@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 
-import YoUno from "../img/Yo-1.png";
-import YoDos from "../img/Yo-2.png";
+import YoUno from "../img/Yo-1.webp";
+import YoDos from "../img/Yo-2.webp";
 
 const About = () => {
   const [isHovered, setIsHovered] = useState(false);

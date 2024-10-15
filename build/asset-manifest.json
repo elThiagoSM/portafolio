@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.ec2952e5.css",
-    "main.js": "/portafolio/static/js/main.e6848007.js",
-    "static/media/Yo-1.png": "/portafolio/static/media/Yo-1.b286b2fd3320fe113305.png",
-    "static/media/Yo-2.png": "/portafolio/static/media/Yo-2.4ab94020db595105ac40.png",
+    "main.js": "/portafolio/static/js/main.a43de98d.js",
+    "static/media/Yo-1.webp": "/portafolio/static/media/Yo-1.d84cf4da2dd2010a826e.webp",
+    "static/media/Yo-2.webp": "/portafolio/static/media/Yo-2.da56211ebec0f686a2e4.webp",
     "static/media/Zolla.ttf": "/portafolio/static/media/Zolla.140074b98ad54720b6ea.ttf",
     "static/media/ITCAvantGardePro-Demi.otf": "/portafolio/static/media/ITCAvantGardePro-Demi.52c7da13a4e464231020.otf",
     "static/media/ITCAvantGardePro-MdObl.otf": "/portafolio/static/media/ITCAvantGardePro-MdObl.7f6f2948e4eb7cc05587.otf",
@@ -25,10 +25,10 @@
     "static/media/generador_contraseñas_img.png": "/portafolio/static/media/generador_contraseñas_img.72ffe884ce10b5b87758.png",
     "index.html": "/portafolio/index.html",
     "main.ec2952e5.css.map": "/portafolio/static/css/main.ec2952e5.css.map",
-    "main.e6848007.js.map": "/portafolio/static/js/main.e6848007.js.map"
+    "main.a43de98d.js.map": "/portafolio/static/js/main.a43de98d.js.map"
   },
   "entrypoints": [
     "static/css/main.ec2952e5.css",
-    "static/js/main.e6848007.js"
+    "static/js/main.a43de98d.js"
   ]
 }
