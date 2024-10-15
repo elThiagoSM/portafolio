@@ -50,24 +50,28 @@ const Home = () => {
             title="Pintureria Arcoiris"
             text="Sitio web de venta de pintuturas y herramientas."
             enlace="http://pintureriaarcoiris.great-site.net/"
+            alt="Pintureria Arcoiris"
           />
           <ProjectDoneComponent
             image={LogoGifApp}
             title="Gif App"
             text="Un sitio donde puedes buscar y descargar tus GIFs favoritos."
             enlace="https://buscar-gifs-gratis.netlify.app/"
+            alt="Gif App"
           />
           <ProjectDoneComponent
             image={LogoFarmaciaLaIda}
             title="Farmacia La Ida"
             text="Sitio web que presenta y ofrece información sobre Farmacia La Ida."
             enlace="https://farmacia-laida.netlify.app/"
+            alt="Farmacia La Ida"
           />
           <ProjectDoneComponent
             image={LogoRatingReact}
             title="Rating React"
             text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
             enlace="https://elthiagosm.github.io/documentation-rating-react/"
+            alt="Rating React"
           />
         </div>
       </div>

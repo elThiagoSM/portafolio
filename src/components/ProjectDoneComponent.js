@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectDoneComponent = ({ image, title, text, enlace }) => {
+const ProjectDoneComponent = ({ image, title, text, enlace, alt }) => {
   const handleClick = () => {
     window.open(enlace, "_blank");
   };
@@ -13,7 +13,7 @@ const ProjectDoneComponent = ({ image, title, text, enlace }) => {
       <div className="w-full relative overflow-hidden rounded mb-2 aspect-square">
         <img
           src={image}
-          alt=""
+          alt={alt}
           className="absolute w-full h-full object-cover"
         />
       </div>

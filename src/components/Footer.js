@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="flex flex-col text-center md:text-right">
           <div className="text-xs text-white">
-            © Thiago Silveira Machado. Todos los derechos reservados.
+            © Soca Studio. Todos los derechos reservados.
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-end">

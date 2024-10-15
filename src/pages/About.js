@@ -26,7 +26,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row items-center justify-center mb-8 md:mr-[25%]">
             <img
               src={Yo}
-              alt="Your Name"
+              alt="Thiago Silveira Machado"
               className="flex-1 max-w-xs rounded-full"
             />
             <div className="flex-1 p-5">
@@ -45,7 +45,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-8 md:ml-[25%]">
             <img
               src={Yo}
-              alt="Your Name"
+              alt="Thiago Silveira Machado"
               className="flex-1 max-w-xs rounded-full"
             />
             <div className="flex-1 p-5">

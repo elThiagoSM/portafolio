@@ -31,24 +31,28 @@ const Projects = () => {
             title="Pintureria Arcoiris"
             text="Sitio web de venta de pintuturas y herramientas."
             enlace="http://pintureriaarcoiris.great-site.net/"
+            alt="Pintureria Arcoiris"
           />
           <ProjectDoneComponent
             image={LogoGifApp}
             title="Gif App"
             text="Un sitio donde puedes buscar y descargar tus GIFs favoritos."
             enlace="https://buscar-gifs-gratis.netlify.app/"
+            alt="Gif App"
           />
           <ProjectDoneComponent
             image={LogoFarmaciaLaIda}
             title="Farmacia La Ida"
             text="Sitio web que presenta y ofrece información sobre Farmacia La Ida."
             enlace="https://farmacia-laida.netlify.app/"
+            alt="Farmacia La Ida"
           />
           <ProjectDoneComponent
             image={LogoRatingReact}
             title="Rating React"
             text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
             enlace="https://elthiagosm.github.io/documentation-rating-react/"
+            alt="Rating React"
           />
         </div>
       </div>
@@ -61,24 +65,28 @@ const Projects = () => {
             title="Generador de Contraseñas"
             text="Una aplicación que permite generar contraseñas aleatorias."
             enlace="https://thiagosilveiramachado.netlify.app"
+            alt="Generador de contraseñas"
           />
           <ProjectDoneComponent
             image={LogoSelectorColores}
             title="Selector de Color"
             text="Un selector de colores que permite al usuario elegir colores y obtener sus códigos hexadecimales."
             enlace="https://thiagosilveiramachado.netlify.app"
+            alt="Selector de color"
           />
           <ProjectDoneComponent
             image={LogoConversorMoneda}
             title="Convertidor de Moneda"
             text="Una aplicación web que convierte distintas monedas en tiempo real."
             enlace="https://thiagosilveiramachado.netlify.app"
+            alt="Convertidor de moneda"
           />
           <ProjectDoneComponent
             image={LogoSimuladorDado}
             title="Simulador de Dado"
             text="Un simulador de lanzamiento de dados aleatorio en 3D."
             enlace="https://thiagosilveiramachado.netlify.app"
+            alt="Simulador de dado"
           />
         </div>
       </div>
@@ -91,18 +99,21 @@ const Projects = () => {
             title="1937"
             text="Videojuego de plataformas en 2D creado con el motor Unity."
             enlace="https://thiagosm.itch.io/1937"
+            alt="Juego 1937"
           />
           <ProjectDoneComponent
             image={LogoChoseTheDoor}
             title="Choose The Door"
             text="Videojuego 3D de puzles en primera persona que se desarrolla dentro de una casa."
             enlace="https://thiagosm.itch.io/choosethedoor"
+            alt="Choose the door"
           />
           <ProjectDoneComponent
             image={Logo1937}
             title="Rolling Balls"
             text="Videojuego 3D de puzzles sobre resolver laverintos siendo una pelota."
-            enlace="https://x.com/"
+            enlace="https://thiagosm.itch.io/rollingballs"
+            alt="Rolling balls"
           />
         </div>
       </div>
