@@ -5,6 +5,8 @@ import Footer from "../components/Footer";
 
 import ProjectDoneComponent from "../components/ProjectDoneComponent";
 
+import LogoParillaLaBrasa from "../img/proyectos/parilla_la_brasa.png";
+import LogoAlejandroRiosFotografo from "../img/proyectos/alejandro_rios.png";
 import LogoFarmaciaLaIda from "../img/proyectos/farmacia_la_ida_img.png";
 import LogoGifApp from "../img/proyectos/gif_app_img.png";
 import LogoPinturariaArcoiris from "../img/proyectos/pintureria_arcoiris_img.png";
@@ -27,11 +29,25 @@ const Projects = () => {
         <h1 className="text-5xl text-white mb-12">Proyectos realizados</h1>
         <div className="flex flex-wrap justify-center gap-5 lg:justify-center">
           <ProjectDoneComponent
-            image={LogoPinturariaArcoiris}
-            title="Pintureria Arcoiris"
-            text="Sitio web de venta de pintuturas y herramientas."
-            enlace="http://pintureriaarcoiris.great-site.net/"
-            alt="Pintureria Arcoiris"
+            image={LogoAlejandroRiosFotografo}
+            title="Alejandro Ríos - Fotógrafo"
+            text="Sitio web que muestra el trabajo de Alejandro Ríos como fotógrafo."
+            enlace="https://alejandorriosfotografo.vercel.app/"
+            alt="Alejandro Ríos - Fotógrafo"
+          />
+          <ProjectDoneComponent
+            image={LogoParillaLaBrasa}
+            title="Parrilla La Brasa"
+            text="Sitio web de Parrilla La Brasa para reservas, menú e información de contacto."
+            enlace="https://labrasa.netlify.app/"
+            alt="Parrilla La Brasa"
+          />
+          <ProjectDoneComponent
+            image={LogoRatingReact}
+            title="Rating React"
+            text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
+            enlace="https://elthiagosm.github.io/documentation-rating-react/"
+            alt="Rating React"
           />
           <ProjectDoneComponent
             image={LogoGifApp}
@@ -48,11 +64,11 @@ const Projects = () => {
             alt="Farmacia La Ida"
           />
           <ProjectDoneComponent
-            image={LogoRatingReact}
-            title="Rating React"
-            text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
-            enlace="https://elthiagosm.github.io/documentation-rating-react/"
-            alt="Rating React"
+            image={LogoPinturariaArcoiris}
+            title="Pintureria Arcoiris"
+            text="Sitio web de venta de pintuturas y herramientas."
+            enlace="http://pintureriaarcoiris.great-site.net/"
+            alt="Pintureria Arcoiris"
           />
         </div>
       </div>

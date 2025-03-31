@@ -10,8 +10,8 @@ import Contact from "../components/Contact";
 import ProjectDoneComponent from "../components/ProjectDoneComponent";
 
 import LogoFarmaciaLaIda from "../img/proyectos/farmacia_la_ida_img.png";
-import LogoGifApp from "../img/proyectos/gif_app_img.png";
-import LogoPinturariaArcoiris from "../img/proyectos/pintureria_arcoiris_img.png";
+import LogoParillaLaBrasa from "../img/proyectos/parilla_la_brasa.png";
+import LogoAlejandroRiosFotografo from "../img/proyectos/alejandro_rios.png";
 import LogoRatingReact from "../img/proyectos/rating_react_img.png";
 
 const Home = () => {
@@ -45,18 +45,18 @@ const Home = () => {
         <h1 className="text-5xl text-white mb-12">Proyectos realizados</h1>
         <div className="flex flex-wrap justify-center gap-5 lg:justify-center">
           <ProjectDoneComponent
-            image={LogoPinturariaArcoiris}
-            title="Pintureria Arcoiris"
-            text="Sitio web de venta de pintuturas y herramientas."
-            enlace="http://pintureriaarcoiris.great-site.net/"
-            alt="Pintureria Arcoiris"
+            image={LogoAlejandroRiosFotografo}
+            title="Alejandro Ríos - Fotógrafo"
+            text="Sitio web que muestra el trabajo de Alejandro Ríos como fotógrafo."
+            enlace="https://alejandorriosfotografo.vercel.app/"
+            alt="Alejandro Ríos - Fotógrafo"
           />
           <ProjectDoneComponent
-            image={LogoGifApp}
-            title="Gif App"
-            text="Un sitio donde puedes buscar y descargar tus GIFs favoritos."
-            enlace="https://buscar-gifs-gratis.netlify.app/"
-            alt="Gif App"
+            image={LogoParillaLaBrasa}
+            title="Parrilla La Brasa"
+            text="Sitio web de Parrilla La Brasa para reservas, menú e información de contacto."
+            enlace="https://labrasa.netlify.app/"
+            alt="Parrilla La Brasa"
           />
           <ProjectDoneComponent
             image={LogoFarmaciaLaIda}

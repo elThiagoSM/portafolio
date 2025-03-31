@@ -51,10 +51,11 @@ const Footer = () => {
 
         <div className="flex flex-col text-center md:text-right">
           <div className="text-xs text-white">
-            © Soca Studio. Todos los derechos reservados.
+            © 2025 por Soca Studio. Todos los derechos reservados.
           </div>
 
-          <div className="flex flex-wrap justify-center md:justify-end">
+          {/*
+           <div className="flex flex-wrap justify-center md:justify-end">
             <Link
               to="/"
               className="m-0 text-xs cursor-pointer pt-2.5 px-2 md:pl-5 text-white no-underline font-bold"
@@ -80,6 +81,7 @@ const Footer = () => {
               Ayuda
             </Link>
           </div>
+          */}
         </div>
       </nav>
     </footer>
