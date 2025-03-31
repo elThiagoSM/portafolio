@@ -27,6 +27,7 @@ const Skills = () => {
             <p className="text-lg text-[#0087FF]">Herramientas que utilizo:</p>
             <ul className="text-lg list-none p-0 mb-12">
               <li>Adobe Illustrator</li>
+              <li>Blender</li>
               <li>Adobe Photoshop</li>
               <li>Figma</li>
               <li>Canvas</li>
@@ -55,6 +56,7 @@ const Skills = () => {
             <ul className="text-lg list-none p-0 mb-12">
               <li>React JS</li>
               <li>Tailwind CSS</li>
+              <li>Next.js</li>
               <li>Github</li>
               <li>XAAMPP</li>
               <li>VS Code</li>

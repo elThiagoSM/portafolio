@@ -7,6 +7,7 @@ import ProjectDoneComponent from "../components/ProjectDoneComponent";
 
 import LogoParillaLaBrasa from "../img/proyectos/parilla_la_brasa.png";
 import LogoAlejandroRiosFotografo from "../img/proyectos/alejandro_rios.png";
+import LogoRestauranteMishiguene from "../img/proyectos/restaurante_mishiguene.png";
 import LogoFarmaciaLaIda from "../img/proyectos/farmacia_la_ida_img.png";
 import LogoGifApp from "../img/proyectos/gif_app_img.png";
 import LogoPinturariaArcoiris from "../img/proyectos/pintureria_arcoiris_img.png";
@@ -62,6 +63,13 @@ const Projects = () => {
             text="Sitio web que presenta y ofrece información sobre Farmacia La Ida."
             enlace="https://farmacia-laida.netlify.app/"
             alt="Farmacia La Ida"
+          />
+          <ProjectDoneComponent
+            image={LogoRestauranteMishiguene}
+            title="Restaurante Mishiguene"
+            text="Clon funcional del sitio web de Mishiguene para presentar su carta digital."
+            enlace="https://carta-mishiguene.netlify.app/"
+            alt="Restaurante Mishiguene"
           />
           <ProjectDoneComponent
             image={LogoPinturariaArcoiris}
