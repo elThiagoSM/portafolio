@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.ec2952e5.css",
+    "main.js": "/portafolio/static/js/main.337e7143.js",
+    "static/media/Zolla.ttf": "/portafolio/static/media/Zolla.140074b98ad54720b6ea.ttf",
+    "static/media/ITCAvantGardePro-Demi.otf": "/portafolio/static/media/ITCAvantGardePro-Demi.52c7da13a4e464231020.otf",
+    "static/media/ITCAvantGardePro-MdObl.otf": "/portafolio/static/media/ITCAvantGardePro-MdObl.7f6f2948e4eb7cc05587.otf",
+    "static/media/ITCAvantGardePro-BoldObl.otf": "/portafolio/static/media/ITCAvantGardePro-BoldObl.d7f55c078353193726ae.otf",
+    "static/media/ITCAvantGardePro-Bold.otf": "/portafolio/static/media/ITCAvantGardePro-Bold.e7bb9f7b5abf08aa7078.otf",
+    "static/media/ITCAvantGardePro-XLtObl.otf": "/portafolio/static/media/ITCAvantGardePro-XLtObl.7c511036bf9b487534e1.otf",
+    "static/media/ITCAvantGardePro-Md.otf": "/portafolio/static/media/ITCAvantGardePro-Md.3d52dc18170f45510a58.otf",
+    "static/media/ITCAvantGardePro-BkObl.otf": "/portafolio/static/media/ITCAvantGardePro-BkObl.3c229151d9b9d01fa846.otf",
+    "static/media/ITCAvantGardePro-XLt.otf": "/portafolio/static/media/ITCAvantGardePro-XLt.ae8975ef0e7c0390191e.otf",
+    "static/media/ITCAvantGardePro-Bk.otf": "/portafolio/static/media/ITCAvantGardePro-Bk.dec102d3d13de4658146.otf",
+    "static/media/ITCAvantGardePro-DemiObl.otf": "/portafolio/static/media/ITCAvantGardePro-DemiObl.b8d130415d0dab3af5a9.otf",
+    "static/media/Yo-2.webp": "/portafolio/static/media/Yo-2.fd938be2552fc8ad03af.webp",
+    "static/media/juego_chosethedoor_img.png": "/portafolio/static/media/juego_chosethedoor_img.8487d6e4171294a4a5d0.png",
+    "static/media/farmacia_la_ida_img.png": "/portafolio/static/media/farmacia_la_ida_img.39068672c5a335d2e284.png",
+    "static/media/pintureria_arcoiris_img.png": "/portafolio/static/media/pintureria_arcoiris_img.daf7c35f940e8bc8ec1d.png",
+    "static/media/Yo-1.webp": "/portafolio/static/media/Yo-1.98246455fc2819f60a31.webp",
+    "index.html": "/portafolio/index.html",
+    "main.ec2952e5.css.map": "/portafolio/static/css/main.ec2952e5.css.map",
+    "main.337e7143.js.map": "/portafolio/static/js/main.337e7143.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec2952e5.css",
+    "static/js/main.337e7143.js"
+  ]
+}
