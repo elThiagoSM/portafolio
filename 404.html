@@ -3,8 +3,11 @@
   <head>
     <script>
       var path = window.location.pathname;
-      var newUrl = "/portafolio" + path;
-      window.location.replace(newUrl);
+      // Verifica si la URL ya tiene "/portafolio"
+      if (!path.startsWith("/portafolio")) {
+        var newUrl = "/portafolio" + path;
+        window.location.replace(newUrl);
+      }
     </script>
   </head>
   <body></body>
