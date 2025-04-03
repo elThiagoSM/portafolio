@@ -1,5 +1,6 @@
 import React from "react";
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
@@ -15,28 +16,53 @@ import LogoAlejandroRiosFotografo from "../img/proyectos/alejandro_rios.png";
 import LogoRatingReact from "../img/proyectos/rating_react_img.png";
 
 const Home = () => {
+  const textVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (delay) => ({
+      opacity: 1,
+      y: 0,
+      transition: { type: "spring", stiffness: 100, damping: 10, delay },
+    }),
+  };
+
   return (
     <div>
       <Header />
 
       <div className="mt-[90px] flex flex-col md:flex-row justify-center items-center w-full h-screen bg-[#0087FF]">
         <div className="mb-[90px] max-w-7xl flex flex-col items-center text-center text-white">
-          <h1 className="my-7 text-8xl">Hola, soy Thiago</h1>
+          <motion.h1
+            className="my-7 text-8xl"
+            variants={textVariants}
+            initial="hidden"
+            animate="visible"
+            custom={0}
+          >
+            Hola, soy Thiago
+          </motion.h1>
           <p className="m-0 text-xl text-center">
-            <Typical
-              steps={[
+            <Typewriter
+              words={[
                 "Diseñador y desarollador de paginas webs y videojuegos.",
-                2000,
               ]}
               loop={1}
-              wrapper="p"
+              cursor
+              cursorStyle="|"
+              typeSpeed={80}
             />
           </p>
-          <Link
-            to="/projects"
-            className="mt-6 py-2 px-4 bg-white text-[#0087FF] rounded-full hover:bg-gray-200 transition duration-300"
-          >
-            Ver proyectos
+          <Link to="/projects">
+            <motion.p
+              className="mt-6 py-2 px-4 bg-white text-[#0087FF] rounded-full"
+              variants={textVariants}
+              initial="hidden"
+              animate="visible"
+              custom={0.2}
+              whileHover={{ backgroundColor: "#E5E7EB", scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+            >
+              Ver proyectos
+            </motion.p>
           </Link>
         </div>
       </div>
@@ -48,8 +74,9 @@ const Home = () => {
             image={LogoAlejandroRiosFotografo}
             title="Alejandro Ríos - Fotógrafo"
             text="Sitio web que muestra el trabajo de Alejandro Ríos como fotógrafo."
-            enlace="https://alejandorriosfotografo.vercel.app/"
+            enlace="https://alejandoriosfotografo.vercel.app/"
             alt="Alejandro Ríos - Fotógrafo"
+            delay={0.1}
           />
           <ProjectDoneComponent
             image={LogoParillaLaBrasa}
@@ -57,6 +84,7 @@ const Home = () => {
             text="Sitio web de Parrilla La Brasa para reservas, menú e información de contacto."
             enlace="https://labrasa.netlify.app/"
             alt="Parrilla La Brasa"
+            delay={0.2}
           />
           <ProjectDoneComponent
             image={LogoFarmaciaLaIda}
@@ -64,6 +92,7 @@ const Home = () => {
             text="Sitio web que presenta y ofrece información sobre Farmacia La Ida."
             enlace="https://farmacia-laida.netlify.app/"
             alt="Farmacia La Ida"
+            delay={0.3}
           />
           <ProjectDoneComponent
             image={LogoRatingReact}
@@ -71,6 +100,7 @@ const Home = () => {
             text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
             enlace="https://elthiagosm.github.io/documentation-rating-react/"
             alt="Rating React"
+            delay={0.4}
           />
         </div>
       </div>

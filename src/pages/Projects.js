@@ -35,6 +35,7 @@ const Projects = () => {
             text="Sitio web que muestra el trabajo de Alejandro Ríos como fotógrafo."
             enlace="https://alejandorriosfotografo.vercel.app/"
             alt="Alejandro Ríos - Fotógrafo"
+            delay={0.1}
           />
           <ProjectDoneComponent
             image={LogoParillaLaBrasa}
@@ -42,6 +43,7 @@ const Projects = () => {
             text="Sitio web de Parrilla La Brasa para reservas, menú e información de contacto."
             enlace="https://labrasa.netlify.app/"
             alt="Parrilla La Brasa"
+            delay={0.2}
           />
           <ProjectDoneComponent
             image={LogoRatingReact}
@@ -49,6 +51,7 @@ const Projects = () => {
             text="Libreria de un componente de calificación fácil de usar para las reseñas de los usuarios."
             enlace="https://elthiagosm.github.io/documentation-rating-react/"
             alt="Rating React"
+            delay={0.3}
           />
           <ProjectDoneComponent
             image={LogoGifApp}
@@ -56,6 +59,7 @@ const Projects = () => {
             text="Un sitio donde puedes buscar y descargar tus GIFs favoritos."
             enlace="https://buscar-gifs-gratis.netlify.app/"
             alt="Gif App"
+            delay={0.4}
           />
           <ProjectDoneComponent
             image={LogoFarmaciaLaIda}
@@ -63,6 +67,7 @@ const Projects = () => {
             text="Sitio web que presenta y ofrece información sobre Farmacia La Ida."
             enlace="https://farmacia-laida.netlify.app/"
             alt="Farmacia La Ida"
+            delay={0.5}
           />
           <ProjectDoneComponent
             image={LogoRestauranteMishiguene}
@@ -70,6 +75,7 @@ const Projects = () => {
             text="Clon funcional del sitio web de Mishiguene para presentar su carta digital."
             enlace="https://carta-mishiguene.netlify.app/"
             alt="Restaurante Mishiguene"
+            delay={0.6}
           />
           <ProjectDoneComponent
             image={LogoPinturariaArcoiris}
@@ -77,6 +83,7 @@ const Projects = () => {
             text="Sitio web de venta de pintuturas y herramientas."
             enlace="http://pintureriaarcoiris.great-site.net/"
             alt="Pintureria Arcoiris"
+            delay={0.7}
           />
         </div>
       </div>
@@ -90,6 +97,7 @@ const Projects = () => {
             text="Una aplicación que permite generar contraseñas aleatorias."
             enlace="https://thiagosilveiramachado.netlify.app"
             alt="Generador de contraseñas"
+            delay={0.1}
           />
           <ProjectDoneComponent
             image={LogoSelectorColores}
@@ -97,6 +105,7 @@ const Projects = () => {
             text="Un selector de colores que permite al usuario elegir colores y obtener sus códigos hexadecimales."
             enlace="https://thiagosilveiramachado.netlify.app"
             alt="Selector de color"
+            delay={0.2}
           />
           <ProjectDoneComponent
             image={LogoConversorMoneda}
@@ -104,6 +113,7 @@ const Projects = () => {
             text="Una aplicación web que convierte distintas monedas en tiempo real."
             enlace="https://thiagosilveiramachado.netlify.app"
             alt="Convertidor de moneda"
+            delay={0.3}
           />
           <ProjectDoneComponent
             image={LogoSimuladorDado}
@@ -111,6 +121,7 @@ const Projects = () => {
             text="Un simulador de lanzamiento de dados aleatorio en 3D."
             enlace="https://thiagosilveiramachado.netlify.app"
             alt="Simulador de dado"
+            delay={0.4}
           />
         </div>
       </div>
@@ -124,6 +135,7 @@ const Projects = () => {
             text="Videojuego de plataformas en 2D creado con el motor Unity."
             enlace="https://thiagosm.itch.io/1937"
             alt="Juego 1937"
+            delay={0.1}
           />
           <ProjectDoneComponent
             image={LogoChoseTheDoor}
@@ -131,6 +143,7 @@ const Projects = () => {
             text="Videojuego 3D de puzles en primera persona que se desarrolla dentro de una casa."
             enlace="https://thiagosm.itch.io/choosethedoor"
             alt="Choose the door"
+            delay={0.2}
           />
           <ProjectDoneComponent
             image={Logo1937}
@@ -138,6 +151,7 @@ const Projects = () => {
             text="Videojuego 3D de puzzles sobre resolver laverintos siendo una pelota."
             enlace="https://thiagosm.itch.io/rollingballs"
             alt="Rolling balls"
+            delay={0.3}
           />
         </div>
       </div>
