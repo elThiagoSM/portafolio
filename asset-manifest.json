@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.ec2952e5.css",
-    "main.js": "/portafolio/static/js/main.074a4788.js",
+    "main.css": "/portafolio/static/css/main.2bbaafdf.css",
+    "main.js": "/portafolio/static/js/main.b2c44f00.js",
     "static/media/Zolla.ttf": "/portafolio/static/media/Zolla.140074b98ad54720b6ea.ttf",
     "static/media/ITCAvantGardePro-Demi.otf": "/portafolio/static/media/ITCAvantGardePro-Demi.52c7da13a4e464231020.otf",
     "static/media/ITCAvantGardePro-MdObl.otf": "/portafolio/static/media/ITCAvantGardePro-MdObl.7f6f2948e4eb7cc05587.otf",
@@ -19,11 +19,11 @@
     "static/media/pintureria_arcoiris_img.png": "/portafolio/static/media/pintureria_arcoiris_img.daf7c35f940e8bc8ec1d.png",
     "static/media/Yo-1.webp": "/portafolio/static/media/Yo-1.98246455fc2819f60a31.webp",
     "index.html": "/portafolio/index.html",
-    "main.ec2952e5.css.map": "/portafolio/static/css/main.ec2952e5.css.map",
-    "main.074a4788.js.map": "/portafolio/static/js/main.074a4788.js.map"
+    "main.2bbaafdf.css.map": "/portafolio/static/css/main.2bbaafdf.css.map",
+    "main.b2c44f00.js.map": "/portafolio/static/js/main.b2c44f00.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec2952e5.css",
-    "static/js/main.074a4788.js"
+    "static/css/main.2bbaafdf.css",
+    "static/js/main.b2c44f00.js"
   ]
 }
